@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Seller account",
+    "description": "Signs in to an account at федота.рф and shows the personal key, balance, and spending history. After sign-in it configures the Token Seller model route alongside the shipped DeepSeek one."
+  }
+}
