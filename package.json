@@ -1,6 +1,6 @@
 {
   "name": "@fedot/token-seller-account",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Учётная запись Token Seller: хост-мост к сервису и панель в настройках",
   "type": "module",
   "license": "UNLICENSED",
@@ -43,8 +43,8 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@deepseek-ai/dsh-agent": ">=0.2.0-rc.2 <0.3.0",
-    "@deepseek-ai/dsh-api-session-controller": ">=0.2.0-rc.2 <0.3.0",
-    "@deepseek-ai/dsh-client-store": ">=0.2.0-rc.2 <0.3.0"
+    "@deepseek-ai/dsh-agent": "0.2.1-rc.3",
+    "@deepseek-ai/dsh-api-session-controller": "0.2.1-rc.3",
+    "@deepseek-ai/dsh-client-store": "0.2.1-rc.3"
   }
 }
