@@ -46,5 +46,6 @@
     "@deepseek-ai/dsh-agent": "0.2.1-rc.3",
     "@deepseek-ai/dsh-api-session-controller": "0.2.1-rc.3",
     "@deepseek-ai/dsh-client-store": "0.2.1-rc.3"
-  }
+  },
+  "packedAt": "27.10.2026, 19:47"
 }
