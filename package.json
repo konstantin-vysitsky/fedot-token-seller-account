@@ -1,6 +1,6 @@
 {
   "name": "@fedot/token-seller-account",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Учётная запись Token Seller: хост-мост к сервису и панель в настройках",
   "type": "module",
   "license": "UNLICENSED",
