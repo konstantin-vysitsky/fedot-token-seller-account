@@ -1,6 +1,6 @@
 {
   "name": "@fedot/token-seller-account",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Учётная запись Token Seller: хост-мост к сервису и панель в настройках",
   "type": "module",
   "license": "UNLICENSED",
@@ -47,5 +47,5 @@
     "@deepseek-ai/dsh-api-session-controller": "0.2.1-rc.3",
     "@deepseek-ai/dsh-client-store": "0.2.1-rc.3"
   },
-  "packedAt": "27.10.2026, 19:47"
+  "packedAt": "27.10.2026, 22:40"
 }

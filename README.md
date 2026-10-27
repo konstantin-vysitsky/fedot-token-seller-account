@@ -1,7 +1,7 @@
 # Плагин Token Seller для DeepSeek Harness
 
-Версия пакета: 0.9.5
-Отметка архива: 27.10.2026, 19:47
+Версия пакета: 0.9.6
+Отметка архива: 27.10.2026, 22:40
 
 Пакет подключает DeepSeek Harness к сервису **Token Seller** (федота.рф):
 вход по почте и паролю, получение ключа, баланс и история вызовов прямо в
@@ -15,7 +15,7 @@
 Пакет совместим со всей линейкой DeepSeek Harness `0.2`: подходит и `0.2.0-rc.2`,
 и `0.2.1-rc.2`. На другой линейке харнесс откажет в установке.
 
-Готовый архив: **https://федота.рф/download/plugins/fedot-token-seller-account-0.9.5.tgz**
+Готовый архив: **https://федота.рф/download/plugins/fedot-token-seller-account-0.9.6.tgz**
 
 1. Скачайте архив по ссылке выше и запомните, куда он попал (обычно «Загрузки»).
 2. На панели слева, под **«Новой сессией»**, нажмите кнопку **«Плагины»**
@@ -23,7 +23,7 @@
 3. Нажмите **«Добавить плагин»** и укажите **путь к скачанному файлу**:
 
    ```
-   C:\Users\<имя>\Downloads\fedot-token-seller-account-0.9.5.tgz
+   C:\Users\<имя>\Downloads\fedot-token-seller-account-0.9.6.tgz
    ```
 
    Именно путь к файлу на диске, а не адрес сайта. Распаковывать архив не нужно.
@@ -46,7 +46,7 @@
 То же самое без интерфейса, если удобнее:
 
 ```powershell
-dsh plugin --profile <профиль> add "C:\Users\<имя>\Downloads\fedot-token-seller-account-0.9.5.tgz"
+dsh plugin --profile <профиль> add "C:\Users\<имя>\Downloads\fedot-token-seller-account-0.9.6.tgz"
 ```
 
 Профиль `desktop` принадлежит приложению, и командная строка его не примет.
@@ -99,9 +99,9 @@ dsh plugin --profile <профиль> add "C:\Users\<имя>\Downloads\fedot-tok
 кода (`.map`) в репозиторий не положены: они весят больше самого кода, а
 харнесс их отсутствие переносит.
 
-Архив `fedot-token-seller-account-0.9.5.tgz` собирается из этого
+Архив `fedot-token-seller-account-0.9.6.tgz` собирается из этого
 каталога командой `pnpm pack` и лежит на витрине по адресу
-`token-seller/static/plugins/fedot-token-seller-account-0.9.5.tgz`.
+`token-seller/static/plugins/fedot-token-seller-account-0.9.6.tgz`.
 После обновления файлов в `lib/` архив нужно собрать заново и положить на
 витрину — иначе со страницы установки по-прежнему будет скачиваться старая
 сборка.
